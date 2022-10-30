@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Amazon",
+    "code": "AMAZON"
+  },
+  {
+    "id": 2,
+    "name": "Facebook",
+    "code": "FACEBOOK"
+  },
+  {
+    "id": 3,
+    "name": "Microsoft",
+    "code": "MICROSOFT"
+  },
+  {
+    "id": 4,
+    "name": "Veewoo",
+    "code": ""
+  }
+]
