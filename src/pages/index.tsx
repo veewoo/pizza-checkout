@@ -119,7 +119,7 @@ export default function Home() {
         <Heading as="h4" size="md" mb="2" px="4" my="4">
           Product Listing
         </Heading>
-        <SimpleGrid columns={3} spacing={4} px={4}>
+        <SimpleGrid columns={{ base: 2, md: 3 }} spacing={4} px={4}>
           {orderRequests.map((item, index) => (
             <ProductCart
               key={"product-" + index}
