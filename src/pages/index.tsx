@@ -92,7 +92,7 @@ export default function Home() {
   }, []);
 
   return (
-    <Container pt={10}>
+    <Container my={10}>
       <Box border="1px" borderColor={"gray.200"} borderRadius="md">
         <Box mb={4} p={4}>
           <Heading as="h4" size="md" mb="2">
