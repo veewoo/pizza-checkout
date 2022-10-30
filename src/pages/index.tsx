@@ -140,7 +140,7 @@ export default function Home() {
         <Heading as="h4" size="md" mb="2" px="4" my="4">
           Cart
         </Heading>
-        <SimpleGrid columns={3} spacing={4} px={4} pb={4}>
+        <SimpleGrid columns={{ base: 2, md: 3 }} spacing={4} px={4} pb={4}>
           {request.orders?.map((item, index) => {
             const productVariant = productVariants?.find(
               (p) => p.id === item.productVariantId
